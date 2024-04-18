@@ -19,13 +19,19 @@ body {
 }
 
 header {
-  background-color: #d900ff;
+  background-color: #ff50cdf5;
   border-radius: 6px;
   height: 150px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+}
+
+#image-profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
 #principal {
@@ -45,8 +51,29 @@ main {
 }
 
 aside {
-  background-color: rgb(221, 52, 255)
+  background-color: rgb(225, 0, 255);
   border-radius: 6px;
   height: 100%;
   width: 25%;
+}
+
+footer {
+  background-color: rgb(255, 148, 239);
+  border-radius: 6px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer  p {
+  color: #f1f1f1;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: #f1f1f1;
+  text-decoration: none;  
+  font-weight: 500;
 }
